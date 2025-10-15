@@ -6,7 +6,7 @@ import uvicorn
 import re
 
 # MongoDB connection
-client = MongoClient("mongodb+srv://mashmelo1969_db_user:ImG7lh65WUYud9nn@cluster0.v4o9qyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+client = MongoClient("mongodb+srv://mashmelo1969_db_user:password@cluster0.v4o9qyt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 db = client.recipe_db
 collection = db.recipes
 
